@@ -35,6 +35,18 @@ window.onscroll = () => {
   navbar.classList.remove('active');
 };
 
+// wechat QR code popup out
+document.getElementById('icon-link').addEventListener('click', function(event){
+  event.preventDefault();
+  var popup = document.getElementById('image-popup');
+  popup.style.display = 'flex';
+});
+
+// Close the popup when clicking anywhere on the screen
+document.getElementById('image-popup').addEventListener('click', function(){
+  this.style.display = 'none';
+});
+
 // scroll reveal
 ScrollReveal({
   // reset: true,
