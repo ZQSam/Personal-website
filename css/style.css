@@ -15,7 +15,7 @@
   /* --bg-color: #1f242d;
   --second-bg-color: #323946; */
   --bg-color: #A9A9A9;
-  --second-bg-color: #6082B6;
+  --second-bg-color: #899499;
   --text-color: #fff;
   --main-color: #0ef;
   /* --main-color: #9acd32; */
@@ -195,7 +195,7 @@ span {
 
 .about-img img {
   object-fit: cover;
-  object-position: left;
+  object-position: center;
   border-radius: 10px;
   width: 35vw;
   height: 35vw;
@@ -245,7 +245,6 @@ span {
   text-align: center;
   border: .2rem solid var(--bg-color);
   transition: 0.5s ease;
-  height: 470px;
 }
 
 .lifestyles-container .lifestyles-box:hover {
