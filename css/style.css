@@ -205,6 +205,7 @@ span {
 .heading {
   text-align: center;
   font-size: 4.5rem;
+  /* transition: all 0.3s; */
 }
 
 .about-content h2 {
@@ -245,6 +246,8 @@ span {
   text-align: center;
   border: .2rem solid var(--bg-color);
   transition: 0.5s ease;
+  /* new added fixed height: */
+  height: 400px; 
 }
 
 .lifestyles-container .lifestyles-box:hover {
@@ -359,6 +362,11 @@ span {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+textarea:focus,
+input:focus {
+  border:0.2rem solid var(--main-color)
 }
 
 .contact form .input-box input,
